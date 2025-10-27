@@ -1,0 +1,6 @@
+@Labo02_RestaurantServiceDI_HostAddress = http://localhost:5212
+
+GET {{Labo02_RestaurantServiceDI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
