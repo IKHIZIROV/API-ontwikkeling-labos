@@ -29,12 +29,51 @@ namespace Labo02_PersonGetPost.Controllers
             return Ok(person);
         }
 
+        [HttpGet]
+        public async Task<ActionResult<List<Person>>> GetAllPersons()
+        {
+            var persons = await _personService.GetAllPersons();
+
+            return Ok(persons);
+        }
+
         [HttpPost]
         public async Task<ActionResult<Person>> CreatePerson(Person item)
         {
             await _personService.CreatePerson(item);
 
             return CreatedAtAction(nameof(GetPerson), new { id = item.Id }, item);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Person>> UpdatePerson(int id, Person item)
+        {
+            if (id != item.Id)
+            {
+                return BadRequest(id);
+            }
+
+            var updatedPerson = await _personService.UpdatePerson(id, item);
+            if (updatedPerson == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(item);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Person>> DeletePerson(int id)
+        {
+            var person = await _personService.GetPerson(id);
+            if (person == null)
+            {
+                return NotFound();
+            }
+
+            await _personService.DeletePerson(id);
+
+            return Ok();
         }
     }
 }

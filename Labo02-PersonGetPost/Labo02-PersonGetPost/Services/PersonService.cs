@@ -18,5 +18,35 @@ namespace Labo02_PersonGetPost.Services
         {
             return Task.FromResult(AllPersons.FirstOrDefault(x => x.Id == id));
         }
+
+        public Task<List<Person>> GetAllPersons()
+        {
+            return Task.FromResult(AllPersons);
+        }
+
+        public Task<Person?> UpdatePerson(int id, Person item)
+        {
+            var person = AllPersons.FirstOrDefault(x => x.Id == id);
+            if (person != null)
+            {
+                person.Id = item.Id;
+                person.FirstName = item.FirstName;
+                person.LastName = item.LastName;
+                person.Address = item.Address;
+            }
+
+            return Task.FromResult(person);
+        }
+
+        public Task DeletePerson(int id)
+        {
+            var person = AllPersons.FirstOrDefault(x => x.Id == id);
+            if (person != null)
+            {
+                AllPersons.Remove(person);
+            }
+
+            return Task.CompletedTask;
+        }
     }
 }
