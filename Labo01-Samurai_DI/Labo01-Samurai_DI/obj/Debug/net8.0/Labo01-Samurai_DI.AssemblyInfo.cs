@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Labo01-Samurai_DI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f07b9bacafd937d800b8274d586c00fc265f068")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c136dab006aad3e42282c1b9837dcdfd4e79f8da")]
 [assembly: System.Reflection.AssemblyProductAttribute("Labo01-Samurai_DI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Labo01-Samurai_DI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

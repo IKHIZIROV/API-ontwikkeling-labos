@@ -1,36 +1,13 @@
+﻿//Create a new DI container
+using Ninject;
+using VoorbeeldDiSamurai;
 
-namespace Labo01_Samurai_DI
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
+var kernel = new StandardKernel();
+//Tell the container to resolve an instance of the Sword class when it's asked for an IWeapon
+kernel.Bind<IWeapon>().To<Sword>();
+kernel.Bind<IWeapon>().To<Dagger>();
 
-            // Add services to the container.
-
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-
-            var app = builder.Build();
-
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
-
-            app.UseHttpsRedirection();
-
-            app.UseAuthorization();
-
-
-            app.MapControllers();
-
-            app.Run();
-        }
-    }
-}
+//Ask the container to get in instance of the Samurai class and to resolve all of it's dependencies
+var warrior = kernel.Get<Samurai>();
+warrior.Attack("the evildoers");
+Console.ReadLine();
