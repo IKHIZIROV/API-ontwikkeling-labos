@@ -6,20 +6,20 @@ namespace Labo02_DaysAndMonthsAPI.Controllers
 {
     [Route("/[controller]")]
     [ApiController]
-    public class BlaController : ControllerBase
+    public class DayController : ControllerBase
     {
         [HttpGet]
-        public ActionResult<List<blabla>> GetDays()
+        public ActionResult<List<Day>> GetDays()
         {
-            return new List<blabla>
+            return new List<Day>
             {
-                new blabla{ Name = "Monday"},
-                new blabla { Name = "Tuesday" },
-                new blabla { Name = "Wednesday" },
-                new blabla { Name = "Thursday" },
-                new blabla { Name = "Friday" },
-                new blabla { Name = "Saturday" },
-                new blabla { Name = "Sunday" }
+                new Day{ Name = "Monday"},
+                new Day { Name = "Tuesday" },
+                new Day { Name = "Wednesday" },
+                new Day { Name = "Thursday" },
+                new Day { Name = "Friday" },
+                new Day { Name = "Saturday" },
+                new Day { Name = "Sunday" }
             };
         }
     }
