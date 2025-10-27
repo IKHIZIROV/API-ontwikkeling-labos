@@ -1,0 +1,6 @@
+@Labo02_DaysAndMonthsAPI_HostAddress = http://localhost:5017
+
+GET {{Labo02_DaysAndMonthsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

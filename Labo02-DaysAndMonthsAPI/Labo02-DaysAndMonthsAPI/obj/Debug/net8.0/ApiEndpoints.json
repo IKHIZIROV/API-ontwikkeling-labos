@@ -1,0 +1,42 @@
+[
+  {
+    "ContainingType": "Labo02_DaysAndMonthsAPI.Controllers.BlaController",
+    "Method": "GetDays",
+    "RelativePath": "Bla",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Labo02_DaysAndMonthsAPI.Models.blabla, Labo02-DaysAndMonthsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Labo02_DaysAndMonthsAPI.Controllers.MonthController",
+    "Method": "GetMonths",
+    "RelativePath": "Month",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Labo02_DaysAndMonthsAPI.Models.Month, Labo02-DaysAndMonthsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

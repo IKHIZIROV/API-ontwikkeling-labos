@@ -17,6 +17,7 @@ namespace VoorbeeldDiSamurai
 
         public void Hit(string target)
         {
+            Pull();
             Console.WriteLine($"Shot {target} between his eyes");
         }
 
