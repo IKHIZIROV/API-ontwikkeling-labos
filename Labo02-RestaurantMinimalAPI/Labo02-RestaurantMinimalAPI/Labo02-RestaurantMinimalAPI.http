@@ -1,0 +1,6 @@
+@Labo02_RestaurantMinimalAPI_HostAddress = http://localhost:5144
+
+GET {{Labo02_RestaurantMinimalAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
