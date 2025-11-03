@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "Labo03_Configuration.Controllers.ConfigurationController",
+    "Method": "ReadKeys",
+    "RelativePath": "Configuration/my-key",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
