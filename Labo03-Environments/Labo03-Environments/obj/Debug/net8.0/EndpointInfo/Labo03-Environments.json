@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Labo03-Environments",
+    "version": "1.0"
+  },
+  "paths": {
+    "/environment": {
+      "get": {
+        "tags": [
+          "Labo03-Environments"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

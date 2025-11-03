@@ -23,5 +23,20 @@ namespace Labo03_Configuration.Controllers
                 }
             );
         }
+
+        [HttpGet]
+        [Route("bind")]
+        public ActionResult BindConfiguration()
+        {
+            var appSettings = new ConfigurationSettings();
+            configuration.GetSection("ApplicationSettings").Bind(appSettings);
+
+            return Ok(new
+            {
+                appSettings.AppName,
+                appSettings.Version,
+                appSettings.MaxUsers
+            });
+        }
     }
 }
