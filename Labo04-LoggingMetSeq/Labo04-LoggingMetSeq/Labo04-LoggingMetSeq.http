@@ -1,0 +1,6 @@
+@Labo04_LoggingMetSeq_HostAddress = http://localhost:5299
+
+GET {{Labo04_LoggingMetSeq_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

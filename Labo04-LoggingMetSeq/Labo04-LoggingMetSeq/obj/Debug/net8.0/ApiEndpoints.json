@@ -1,0 +1,42 @@
+[
+  {
+    "ContainingType": "LoggingController",
+    "Method": "LogError",
+    "RelativePath": "api/Logging/log-error",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoggingController",
+    "Method": "LogException",
+    "RelativePath": "api/Logging/log-exception",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoggingController",
+    "Method": "LogInformation",
+    "RelativePath": "api/Logging/log-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoggingController",
+    "Method": "LogWarning",
+    "RelativePath": "api/Logging/log-warning",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
