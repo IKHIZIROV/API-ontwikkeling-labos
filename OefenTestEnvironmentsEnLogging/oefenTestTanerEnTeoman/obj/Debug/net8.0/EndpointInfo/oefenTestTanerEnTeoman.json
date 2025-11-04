@@ -1,0 +1,58 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "oefenTestTanerEnTeoman",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Environments/environment-message": {
+      "get": {
+        "tags": [
+          "Environments"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Logging/bookings/book": {
+      "get": {
+        "tags": [
+          "Logging"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Logging/bookings/cancel": {
+      "get": {
+        "tags": [
+          "Logging"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Logging/bookings/error": {
+      "get": {
+        "tags": [
+          "Logging"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

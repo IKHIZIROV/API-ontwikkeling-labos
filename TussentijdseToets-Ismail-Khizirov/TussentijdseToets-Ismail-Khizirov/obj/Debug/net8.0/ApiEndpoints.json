@@ -1,0 +1,141 @@
+[
+  {
+    "ContainingType": "TussentijdseToets_Ismail_Khizirov.Controllers.BikeController",
+    "Method": "GetBikes",
+    "RelativePath": "api/bikes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TussentijdseToets_Ismail_Khizirov.Models.Bike, TussentijdseToets-Ismail-Khizirov, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TussentijdseToets_Ismail_Khizirov.Controllers.BikeController",
+    "Method": "GetBikeDetails",
+    "RelativePath": "api/bikes/{id}/details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TussentijdseToets_Ismail_Khizirov.Models.Bike",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TussentijdseToets_Ismail_Khizirov.Controllers.BikeController",
+    "Method": "SearchBikeByTypeAndLocation",
+    "RelativePath": "api/bikes/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TussentijdseToets_Ismail_Khizirov.Models.Bike",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TussentijdseToets_Ismail_Khizirov.Controllers.HomeController",
+    "Method": "GetEnvironmentMessage",
+    "RelativePath": "api/Home/environment-message",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TussentijdseToets_Ismail_Khizirov.Controllers.RentalController",
+    "Method": "LogCancel",
+    "RelativePath": "api/rentals/cancel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TussentijdseToets_Ismail_Khizirov.Controllers.RentalController",
+    "Method": "LogExtend",
+    "RelativePath": "api/rentals/extend",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TussentijdseToets_Ismail_Khizirov.Controllers.RentalController",
+    "Method": "LogRent",
+    "RelativePath": "api/rentals/rent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TussentijdseToets_Ismail_Khizirov.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_0",
+    "RelativePath": "api/status",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "\u003C\u003Ef__AnonymousType1\u00603[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Status"
+    ],
+    "EndpointName": "GetStatus"
+  }
+]

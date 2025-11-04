@@ -1,0 +1,6 @@
+@TussentijdseToets_Ismail_Khizirov_HostAddress = http://localhost:5182
+
+GET {{TussentijdseToets_Ismail_Khizirov_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

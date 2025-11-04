@@ -1,0 +1,6 @@
+@oefenTestTanerEnTeoman_HostAddress = http://localhost:5165
+
+GET {{oefenTestTanerEnTeoman_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,42 @@
+[
+  {
+    "ContainingType": "oefenTestTanerEnTeoman.Controllers.EnvironmentsController",
+    "Method": "GetEnvironmentMessage",
+    "RelativePath": "api/Environments/environment-message",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "oefenTestTanerEnTeoman.Controllers.LoggingController",
+    "Method": "LogBooking",
+    "RelativePath": "api/Logging/bookings/book",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "oefenTestTanerEnTeoman.Controllers.LoggingController",
+    "Method": "LogCancel",
+    "RelativePath": "api/Logging/bookings/cancel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "oefenTestTanerEnTeoman.Controllers.LoggingController",
+    "Method": "LogError",
+    "RelativePath": "api/Logging/bookings/error",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
