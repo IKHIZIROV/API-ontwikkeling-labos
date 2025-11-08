@@ -1,4 +1,6 @@
 
+using ProjectAnimalWorld.Services;
+
 namespace ProjectAnimalWorld
 {
     public class Program
@@ -7,16 +9,16 @@ namespace ProjectAnimalWorld
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddSingleton<IContinentsService, ContinentsService>();
+            builder.Services.AddSingleton<ICountriesService, CountriesService>();
+            builder.Services.AddSingleton<IAnimalsService, AnimalsService>();
+
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -26,7 +28,6 @@ namespace ProjectAnimalWorld
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
