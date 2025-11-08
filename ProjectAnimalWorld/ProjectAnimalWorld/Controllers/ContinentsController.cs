@@ -5,7 +5,7 @@ namespace ProjectAnimalWorld.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ContinentController : ControllerBase
+    public class ContinentsController : ControllerBase
     {
     }
 }
