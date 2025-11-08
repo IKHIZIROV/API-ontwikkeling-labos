@@ -1,0 +1,6 @@
+@ProjectAnimalWorld_HostAddress = http://localhost:5094
+
+GET {{ProjectAnimalWorld_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
