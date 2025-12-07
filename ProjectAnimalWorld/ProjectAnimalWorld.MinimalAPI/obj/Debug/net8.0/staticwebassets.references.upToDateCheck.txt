@@ -1,0 +1,1 @@
+C:\Users\ismail\Documents\code\API-ontwikkeling-labos\ProjectAnimalWorld\ProjectAnimalWorld\obj\Debug\net8.0\staticwebassets.build.json

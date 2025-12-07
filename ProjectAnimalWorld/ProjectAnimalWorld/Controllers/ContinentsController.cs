@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProjectAnimalWorld.Models;
-using ProjectAnimalWorld.Services;
+using ProjectAnimalWorld.Services.Interfaces;
 
 namespace ProjectAnimalWorld.Controllers
 {

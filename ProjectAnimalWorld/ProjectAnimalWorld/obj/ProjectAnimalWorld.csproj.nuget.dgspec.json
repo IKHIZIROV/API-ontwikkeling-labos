@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ismai\\source\\repos\\API-ontw\\API-ontwikkeling-labos\\ProjectAnimalWorld\\ProjectAnimalWorld\\ProjectAnimalWorld.csproj": {}
+    "C:\\Users\\ismail\\Documents\\code\\API-ontwikkeling-labos\\ProjectAnimalWorld\\ProjectAnimalWorld\\ProjectAnimalWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ismai\\source\\repos\\API-ontw\\API-ontwikkeling-labos\\ProjectAnimalWorld\\ProjectAnimalWorld\\ProjectAnimalWorld.csproj": {
+    "C:\\Users\\ismail\\Documents\\code\\API-ontwikkeling-labos\\ProjectAnimalWorld\\ProjectAnimalWorld\\ProjectAnimalWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ismai\\source\\repos\\API-ontw\\API-ontwikkeling-labos\\ProjectAnimalWorld\\ProjectAnimalWorld\\ProjectAnimalWorld.csproj",
+        "projectUniqueName": "C:\\Users\\ismail\\Documents\\code\\API-ontwikkeling-labos\\ProjectAnimalWorld\\ProjectAnimalWorld\\ProjectAnimalWorld.csproj",
         "projectName": "ProjectAnimalWorld",
-        "projectPath": "C:\\Users\\ismai\\source\\repos\\API-ontw\\API-ontwikkeling-labos\\ProjectAnimalWorld\\ProjectAnimalWorld\\ProjectAnimalWorld.csproj",
-        "packagesPath": "C:\\Users\\ismai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ismai\\source\\repos\\API-ontw\\API-ontwikkeling-labos\\ProjectAnimalWorld\\ProjectAnimalWorld\\obj\\",
+        "projectPath": "C:\\Users\\ismail\\Documents\\code\\API-ontwikkeling-labos\\ProjectAnimalWorld\\ProjectAnimalWorld\\ProjectAnimalWorld.csproj",
+        "packagesPath": "C:\\Users\\ismail\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ismail\\Documents\\code\\API-ontwikkeling-labos\\ProjectAnimalWorld\\ProjectAnimalWorld\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ismai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ismail\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,9 +50,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[8.1.4, )"
             }
           },
           "imports": [
@@ -74,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

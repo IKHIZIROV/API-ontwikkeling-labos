@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectAnimalWorld")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52ac9b59b2a73fbc665f3a32f9a296e57b0e5b49")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b628b9d520c993bc9932f074e32e274b3fc68d67")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectAnimalWorld")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectAnimalWorld")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

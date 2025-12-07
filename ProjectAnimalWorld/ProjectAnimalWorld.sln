@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36203.30 d17.14
+VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectAnimalWorld", "ProjectAnimalWorld\ProjectAnimalWorld.csproj", "{026EC4BE-30FA-4BCE-A923-A11C773573AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectAnimalWorld.MinimalAPI", "ProjectAnimalWorld.MinimalAPI\ProjectAnimalWorld.MinimalAPI.csproj", "{78BD6803-DF81-4F8C-A2B8-58861479CDFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{026EC4BE-30FA-4BCE-A923-A11C773573AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{026EC4BE-30FA-4BCE-A923-A11C773573AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{026EC4BE-30FA-4BCE-A923-A11C773573AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78BD6803-DF81-4F8C-A2B8-58861479CDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BD6803-DF81-4F8C-A2B8-58861479CDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BD6803-DF81-4F8C-A2B8-58861479CDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BD6803-DF81-4F8C-A2B8-58861479CDFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
